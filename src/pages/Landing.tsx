@@ -97,10 +97,10 @@ export default function Landing() {
       <footer className="bg-obsidian py-8 border-t border-gold/10">
         <div className="container mx-auto px-4 flex flex-col items-center justify-center gap-4 text-center">
           <a
-            href="https://paypal.me/StarkGeek?locale.x=es_XC&country.x=GT"
+            href="https://ko-fi.com/maximopappa"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#FFDD00] text-black font-semibold text-xs transition-transform hover:scale-105 shadow-md"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#FF5E5B] text-white font-semibold text-xs transition-transform hover:scale-105 shadow-md"
           >
             <Coffee className="w-4 h-4" />
             <span>Invítame un café</span>

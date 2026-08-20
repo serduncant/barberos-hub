@@ -94,10 +94,10 @@ export function AppSidebar() {
       {/* Bottom */}
       <div className="p-2 space-y-1 border-t border-sidebar-border">
         <a
-          href="https://paypal.me/StarkGeek?locale.x=es_XC&country.x=GT"
+          href="https://ko-fi.com/maximopappa"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full flex items-center gap-3 px-3 py-2 rounded-md text-xs font-semibold text-black bg-[#FFDD00] hover:bg-[#ffe536] transition-colors duration-150 shadow-sm"
+          className="w-full flex items-center gap-3 px-3 py-2 rounded-md text-xs font-semibold text-white bg-[#FF5E5B] hover:bg-[#ff4744] transition-colors duration-150 shadow-sm"
         >
           <Coffee className="w-4 h-4 flex-shrink-0" />
           <span className="hidden lg:inline">Invítame un café</span>

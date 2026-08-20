@@ -2,16 +2,16 @@
 
 BarberOS es una plataforma web integral diseñada para la gestión, reserva de citas y administración de barberías modernas. Ofrece una experiencia premium para clientes, barberos y administradores.
 
-[![Invítame un café](https://img.shields.io/badge/Inv%C3%ADtame%20un%20caf%C3%A9-PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/StarkGeek?locale.x=es_XC&country.x=GT)
+[![Invítame un café](https://img.shields.io/badge/Inv%C3%ADtame%20un%20caf%C3%A9-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/maximopappa)
 
 ---
 
 ## ☕ Apoya el Proyecto
 
-Si este proyecto te ha sido útil o te gusta el trabajo realizado, ¡puedes apoyarme invitándome un café a través de PayPal!
+Si este proyecto te ha sido útil o te gusta el trabajo realizado, ¡puedes apoyarme invitándome un café a través de Ko-fi!
 
-<a href="https://paypal.me/StarkGeek?locale.x=es_XC&country.x=GT" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Invítame un café - PayPal" width="200" />
+<a href="https://ko-fi.com/maximopappa" target="_blank">
+  <img src="https://storage.ko-fi.com/cdn/kofi2.png" alt="Invítame un café en Ko-fi" width="190" />
 </a>
 
 ---
