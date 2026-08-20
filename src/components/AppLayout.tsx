@@ -94,7 +94,7 @@ export function AppSidebar() {
       {/* Bottom */}
       <div className="p-2 space-y-1 border-t border-sidebar-border">
         <a
-          href="https://www.buymeacoffee.com/"
+          href="https://paypal.me/StarkGeek?locale.x=es_XC&country.x=GT"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full flex items-center gap-3 px-3 py-2 rounded-md text-xs font-semibold text-black bg-[#FFDD00] hover:bg-[#ffe536] transition-colors duration-150 shadow-sm"
