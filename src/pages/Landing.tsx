@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Scissors, Clock, Star, ArrowRight } from 'lucide-react';
+import { Scissors, Clock, Star, ArrowRight, Coffee } from 'lucide-react';
 import { MOCK_SERVICES } from '@/data/mockData';
 import heroImage from '@/assets/hero-barbershop.jpg';
 
@@ -95,9 +95,20 @@ export default function Landing() {
 
       {/* Footer */}
       <footer className="bg-obsidian py-8 border-t border-gold/10">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-gold font-display font-semibold text-sm">BarberOS Demo Shop</p>
-          <p className="text-primary-foreground/40 text-xs mt-1">Sistema de gestión para barberías</p>
+        <div className="container mx-auto px-4 flex flex-col items-center justify-center gap-4 text-center">
+          <a
+            href="https://www.buymeacoffee.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#FFDD00] text-black font-semibold text-xs transition-transform hover:scale-105 shadow-md"
+          >
+            <Coffee className="w-4 h-4" />
+            <span>Invítame un café</span>
+          </a>
+          <div>
+            <p className="text-gold font-display font-semibold text-sm">BarberOS Demo Shop</p>
+            <p className="text-primary-foreground/40 text-xs mt-1">Sistema de gestión para barberías</p>
+          </div>
         </div>
       </footer>
     </div>

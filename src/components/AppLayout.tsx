@@ -1,6 +1,6 @@
 import { useStore } from '@/store/useStore';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Calendar, Scissors, Users, Settings, LogOut, LayoutDashboard, RotateCcw, User } from 'lucide-react';
+import { Calendar, Scissors, Users, Settings, LogOut, LayoutDashboard, RotateCcw, User, Coffee } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { toast } from 'sonner';
@@ -93,6 +93,15 @@ export function AppSidebar() {
 
       {/* Bottom */}
       <div className="p-2 space-y-1 border-t border-sidebar-border">
+        <a
+          href="https://www.buymeacoffee.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full flex items-center gap-3 px-3 py-2 rounded-md text-xs font-semibold text-black bg-[#FFDD00] hover:bg-[#ffe536] transition-colors duration-150 shadow-sm"
+        >
+          <Coffee className="w-4 h-4 flex-shrink-0" />
+          <span className="hidden lg:inline">Invítame un café</span>
+        </a>
         <button
           onClick={handleReset}
           className="w-full flex items-center gap-3 px-3 py-2.5 rounded-md text-sm text-sidebar-foreground/50 hover:bg-sidebar-accent hover:text-sidebar-foreground transition-colors duration-150"
